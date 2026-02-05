@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="bg-glow"></div>
+
+    <header class="header">
+        <main class="container">
+            <nav class="nav">
+                <a class="logo" href="#">Adriel Dev</a>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+                <ul class="menu" id="menu">
+                    <li><a href="#stack">Stack</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+
+        <a class="announcement" href="#contato">
+            <span>Disponível para freelancer</span>
+            <span>→</span>
+            <strong>Fale comigo!</strong>
+        </a>
+
+        <!-- HERO -->
+        <section class="hero">
+            <h1>Sites rápidos, modernos e bem organizados.</h1>
+            <p>
+                Sou Desenvolvedor Front-End em formação (HTML, CSS e JavaScript). Estou construindo projetos
+                práticos para atuar como freelancer e, futuramente, conquistar uma oportunidade fixa (estágio/júnior).
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="#contato">Contato</a>
+                <a class="btn ghost" href="#projetos">Ver projetos</a>
+            </div>
+
+            <div class="kpis">
+                <div class="kpi">✔ HTML semântico</div>
+                <div class="kpi">✔ CSS responsivo</div>
+                <div class="kpi">✔ JavaScript</div>
+                <div class="kpi">✔ Projetos em evolução</div>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section">
+            <h2>Sobre</h2>
+
+            <p>
+                Sou estudante do último ano do ensino médio e Desenvolvedor Front-End em formação, com foco em HTML,
+                CSS e JavaScript. Estou construindo projetos práticos para evoluir na área de tecnologia e atuar
+                como freelancer.
+            </p>
+
+            <p>
+                No futuro, também busco uma oportunidade fixa (estágio/júnior), onde eu possa aprender com um time,
+                ganhar experiência e crescer profissionalmente.
+            </p>
+
+            <p>
+                Além da programação, sou autor de 3 livros infantis:
+                <strong>As Aventuras na Floresta das Formas</strong>,
+                <strong>Sereno Verde: Ecos na Floresta</strong> e
+                <strong>O Cofrinho Viajante</strong>.
+                Isso me deu muita prática em organização, disciplina e comunicação.
+            </p>
+        </section>
+
+        <section id="stack" class="section">
+            <h2>Stack</h2>
+            <p>Tecnologias que estou usando e estudando no momento.</p>
+
+            <div class="badges">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Git & GitHub</span>
+                <span class="badge">VS Code</span>
+            </div>
+        </section>
+
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="section">
+            <h2>Serviços</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Landing Page</h3>
+                    <p>Página única moderna para apresentar e captar contato.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Página Institucional</h3>
+                    <p>Home, Sobre, Serviços e Contato, com layout responsivo.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Ajustes e Melhorias</h3>
+                    <p>Correções de layout, responsividade e pequenas interações.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Projeto 1 — Minha Landing</h3>
+                    <p>Landing page pessoal com HTML, CSS e JavaScript (menu mobile e contato).</p>
+
+                    <div class="card-actions">
+                        <a class="btn ghost" href="https://github.com/adrielguerra599-cmd/minha-landing-page" target="_blank" rel="noopener">Ver código</a>
+                        <a class="btn primary outline" href="https://adrielguerra599-cmd.github.io/minha-landing-page/" target="_blank" rel="noopener">Ver demo</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 2 — Site Institucional</h3>
+                    <p>Página institucional simples, com seção de serviços e contato.</p>
+
+                    <div class="card-actions">
+                        <a class="btn ghost" href="https://github.com/adrielguerra599-cmd/projeto-2-pagina-institucional" target="_blank" rel="noopener">Ver código</a>
+                        <a class="btn primary outline" href="https://adrielguerra599-cmd.github.io/projeto-2-pagina-institucional/" target="_blank" rel="noopener">Ver demo</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 3 — Em breve</h3>
+                    <p>Mini app em JavaScript para praticar lógica e DOM.</p>
+
+                    <div class="card-actions">
+                        <a class="btn ghost" href="#contato">Me avise</a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Quer um site simples? Me chame no WhatsApp ou copie meu e-mail.</p>
+
+            <div class="contact-actions">
+                <button class="btn primary" id="btnWhats">Falar comigo no WhatsApp</button>
+                <button class="btn primary outline" id="btnEmail">Copiar e-mail</button>
+            </div>
+
+
+            <p id="status" class="status"></p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Adriel Guerra Marques — Front-End em Formação</p>
+        <a href="#">Voltar ao topo</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
